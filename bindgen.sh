@@ -1,0 +1,1 @@
+bindgen -o src/raw.rs --opaque-type "std::.*" --whitelist-type "TApplication" tvision/include/tvision/tv.h -- -x c++ -std=c++17 -I tvision/include -DUses_TKeys -DUses_TApplication -DUses_TEvent -DUses_TRect -DUses_TDialog -DUses_TStaticText -DUses_TButton -DUses_TMenuBar -DUses_TSubMenu -DUses_TMenuItem -DUses_TStatusLine -DUses_TStatusItem -DUses_TStatusDef -DUses_TDeskTop

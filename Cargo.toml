@@ -1,0 +1,8 @@
+[package]
+name = "tvision"
+version = "0.1.0"
+authors = ["jam1garner <8260240+jam1garner@users.noreply.github.com>"]
+edition = "2018"
+
+[build-dependencies]
+cmake = "0.1"
