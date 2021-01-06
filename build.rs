@@ -12,5 +12,6 @@ fn main() {
     println!("cargo:rustc-link-search=native={}/lib", dst.display());
     println!("cargo:rustc-link-lib=static=tvision");
     println!("cargo:rustc-link-lib=stdc++");
+    println!("cargo:rustc-link-lib=ncursesw");
     //println!("cargo:rustc-link-lib=static=ncurses");
 }
